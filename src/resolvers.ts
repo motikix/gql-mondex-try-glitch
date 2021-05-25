@@ -54,8 +54,7 @@ const genMon = (mon: typeof mons[0]): Mon => {
       return []
     }
   })
-  // m.hp = mon.hp
-  m.hp = 1.5
+  m.hp = mon.hp
   m.atk = mon.atk
   m.def = mon.def
   m.satk = mon.satk
